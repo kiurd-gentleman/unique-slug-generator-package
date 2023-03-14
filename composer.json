@@ -1,13 +1,13 @@
 {
     "name": "krimt/unique-slug",
     "description": "This is just a unique slug generator",
-    "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "Krimt\\UniqueSlug\\": "src/"
         }
     },
+    "homepage": "https://github.com/kiurd-gentleman/unique-slug-generator-package",
     "authors": [
         {
             "name": "kiurd-gentelman",
