@@ -1,0 +1,31 @@
+{
+    "name": "krimt/unique-slug",
+    "description": "This is just a unique slug generator",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Krimt\\UniqueSlug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kiurd-gentelman",
+            "email": "k.r.imtiaz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Krimt\\UniqueSlug\\UniqueSlugServiceProvider"
+        ],
+        "aliases": {
+            "UniqueSlug": "Krimt\\UniqueSlug\\Facade"
+        }
+    }
+}
+}
